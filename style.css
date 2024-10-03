@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    /* background-color: #b32f1e; */
+    background: rgb(75,69,252);
+background: linear-gradient(90deg, rgba(75,69,252,1) 18%, rgba(255,16,0,0.4430147058823529) 50%, rgba(75,69,252,1) 100%);
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.logo {
+    margin: 20px;
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+#tacobell{
+    margin: 20px;
+    width: 350px;
+}
+.logo:hover {
+    transform: scale(1.1);
+}
